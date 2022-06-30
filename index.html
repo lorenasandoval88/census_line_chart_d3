@@ -2,23 +2,18 @@
 <html lang="en-US">
 
 <head>
-
-
     <script src="https://d3js.org/d3.v5.min.js"></script>
     <script src="https://uscensusbureau.github.io/citysdk/assets/citysdk.js"></script>
-
     <style>
         html,
         body {
           margin: 0;
         }
-  
         .line {
           fill: none;
           stroke-width: 3;
         }
       </style>
-
 </head>
 
 <!-- Body tag is where we will append our SVG and SVG objects-->
@@ -27,9 +22,6 @@
     <svg id="chart"></svg>
 
     <h1>Loading...</h1>
- 
-
-
     <script>
         //https://uscensusbureau.github.io/citysdk/
         function censusPromise(args) {
